@@ -1,0 +1,44 @@
+html {
+      font-size: 62.5%;
+}
+
+body {
+      font-family: "helvetica";
+      background-color: rgba(122, 134, 144, 1.000);
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
+header img {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 95px;
+  display: flex;
+}
+
+main div{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: 700;
+}
+nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+}
